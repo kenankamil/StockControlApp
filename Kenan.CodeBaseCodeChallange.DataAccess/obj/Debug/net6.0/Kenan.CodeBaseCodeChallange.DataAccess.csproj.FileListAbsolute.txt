@@ -1,0 +1,17 @@
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\bin\Debug\net6.0\Kenan.CodeBaseCodeChallange.DataAccess.deps.json
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\bin\Debug\net6.0\Kenan.CodeBaseCodeChallange.DataAccess.runtimeconfig.json
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\bin\Debug\net6.0\Kenan.CodeBaseCodeChallange.DataAccess.dll
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\bin\Debug\net6.0\Kenan.CodeBaseCodeChallange.DataAccess.pdb
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\bin\Debug\net6.0\Kenan.CodeBaseCodeChallange.Entities.dll
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\bin\Debug\net6.0\Kenan.CodeBaseCodeChallange.Entities.pdb
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\obj\Debug\net6.0\Kenan.CodeBaseCodeChallange.DataAccess.csproj.AssemblyReference.cache
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\obj\Debug\net6.0\Kenan.CodeBaseCodeChallange.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\obj\Debug\net6.0\Kenan.CodeBaseCodeChallange.DataAccess.AssemblyInfoInputs.cache
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\obj\Debug\net6.0\Kenan.CodeBaseCodeChallange.DataAccess.AssemblyInfo.cs
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\obj\Debug\net6.0\Kenan.CodeBaseCodeChallange.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\obj\Debug\net6.0\Kenan.CodeBaseCodeChallange.DataAccess.csproj.CopyComplete
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\obj\Debug\net6.0\Kenan.CodeBaseCodeChallange.DataAccess.dll
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\obj\Debug\net6.0\refint\Kenan.CodeBaseCodeChallange.DataAccess.dll
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\obj\Debug\net6.0\Kenan.CodeBaseCodeChallange.DataAccess.pdb
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\obj\Debug\net6.0\Kenan.CodeBaseCodeChallange.DataAccess.genruntimeconfig.cache
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.DataAccess\obj\Debug\net6.0\ref\Kenan.CodeBaseCodeChallange.DataAccess.dll

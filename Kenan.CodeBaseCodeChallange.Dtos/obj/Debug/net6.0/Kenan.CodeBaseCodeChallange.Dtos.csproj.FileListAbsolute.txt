@@ -1,0 +1,12 @@
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.Dtos\bin\Debug\net6.0\Kenan.CodeBaseCodeChallange.Dtos.deps.json
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.Dtos\bin\Debug\net6.0\Kenan.CodeBaseCodeChallange.Dtos.dll
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.Dtos\bin\Debug\net6.0\Kenan.CodeBaseCodeChallange.Dtos.pdb
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.Dtos\obj\Debug\net6.0\Kenan.CodeBaseCodeChallange.Dtos.csproj.AssemblyReference.cache
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.Dtos\obj\Debug\net6.0\Kenan.CodeBaseCodeChallange.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.Dtos\obj\Debug\net6.0\Kenan.CodeBaseCodeChallange.Dtos.AssemblyInfoInputs.cache
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.Dtos\obj\Debug\net6.0\Kenan.CodeBaseCodeChallange.Dtos.AssemblyInfo.cs
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.Dtos\obj\Debug\net6.0\Kenan.CodeBaseCodeChallange.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.Dtos\obj\Debug\net6.0\Kenan.CodeBaseCodeChallange.Dtos.dll
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.Dtos\obj\Debug\net6.0\refint\Kenan.CodeBaseCodeChallange.Dtos.dll
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.Dtos\obj\Debug\net6.0\Kenan.CodeBaseCodeChallange.Dtos.pdb
+C:\Users\bewel\source\repos\Kenan.CodeBaseCodeChallange.UI\Kenan.CodeBaseCodeChallange.Dtos\obj\Debug\net6.0\ref\Kenan.CodeBaseCodeChallange.Dtos.dll

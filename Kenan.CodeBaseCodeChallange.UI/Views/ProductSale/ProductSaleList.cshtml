@@ -1,0 +1,101 @@
+﻿@model List<ProductSaleListDto>
+@{
+    DateTime startDate = Convert.ToDateTime(ViewBag.StartDate ?? DateTime.Now);
+    DateTime endDate = Convert.ToDateTime(ViewBag.EndDate ?? DateTime.Now);
+    var error = ViewBag.Error != null ? (string)ViewBag.Error : "";
+}
+<form asp-action="ProductSaleList" asp-controller="ProductSale">
+    <div class="row my-2">
+        <div class='col-sm-3'>
+            <div class="form-group">
+                <input type="datetime-local"
+                       name="startDate" value="@startDate.ToString("yyyy-MM-ddTHH:mm")">
+            </div>
+        </div>
+        <div class='col-sm-3'>
+            <div class="form-group">
+                <input type="datetime-local"
+                       name="endDate" value="@endDate.ToString("yyyy-MM-ddTHH:mm")">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-3">
+            <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+    </div>
+</form>
+
+<div class="row my-2" style="padding-bottom:10px">
+    <div class="col-12">
+        @if (!string.IsNullOrWhiteSpace(error))
+        {
+            <div class="alert-danger" style="height: auto;">@error</div>
+        }
+    </div>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">ProductId</th>
+            <th scope="col">Customer Name</th>
+            <th scope="col">Outputs</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductId</td>
+                <td>@item.CustomerName</td>
+                <td>@item.SaleCount</td>
+                <td>@item.CreatedAt</td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+
+@section scripts{
+<script>
+    $(function () {
+      var bindDatePicker = function() {
+           $(".date").datepicker({
+          dateFormat: 'yyyy-MM-ddT00:00',
+           }).find('input:first').on("blur",function () {
+               var date = parseDate($(this).val());
+
+               if (! isValidDate(date)) {
+                   date = moment().format('yyyy-MM-ddT00:00');
+               }
+
+               $(this).val(date);
+           });
+       }
+
+      var isValidDate = function(value, format) {
+           format = format || false;
+           if (format) {
+               value = parseDate(value);
+           }
+
+           var timestamp = Date.parse(value);
+
+           return isNaN(timestamp) == false;
+      }
+
+      var parseDate = function(value) {
+           var m = value.match(/^(\d{1,2})(\/|-)?(\d{1,2})(\/|-)?(\d{4})$/);
+           if (m)
+               value = m[5] + '-' + ("00" + m[3]).slice(-2) + '-' + ("00" + m[1]).slice(-2);
+
+           return value;
+      }
+
+      bindDatePicker();
+    });
+
+</script>
+}

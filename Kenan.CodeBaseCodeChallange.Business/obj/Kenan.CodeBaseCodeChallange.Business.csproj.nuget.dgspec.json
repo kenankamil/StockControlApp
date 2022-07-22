@@ -1,0 +1,261 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Business\\Kenan.CodeBaseCodeChallange.Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Business\\Kenan.CodeBaseCodeChallange.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Business\\Kenan.CodeBaseCodeChallange.Business.csproj",
+        "projectName": "Kenan.CodeBaseCodeChallange.Business",
+        "projectPath": "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Business\\Kenan.CodeBaseCodeChallange.Business.csproj",
+        "packagesPath": "C:\\Users\\bewel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bewel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.DataAccess\\Kenan.CodeBaseCodeChallange.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.DataAccess\\Kenan.CodeBaseCodeChallange.DataAccess.csproj"
+              },
+              "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Dtos\\Kenan.CodeBaseCodeChallange.Dtos.csproj": {
+                "projectPath": "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Dtos\\Kenan.CodeBaseCodeChallange.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.DataAccess\\Kenan.CodeBaseCodeChallange.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.DataAccess\\Kenan.CodeBaseCodeChallange.DataAccess.csproj",
+        "projectName": "Kenan.CodeBaseCodeChallange.DataAccess",
+        "projectPath": "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.DataAccess\\Kenan.CodeBaseCodeChallange.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\bewel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bewel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Entities\\Kenan.CodeBaseCodeChallange.Entities.csproj": {
+                "projectPath": "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Entities\\Kenan.CodeBaseCodeChallange.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Dtos\\Kenan.CodeBaseCodeChallange.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Dtos\\Kenan.CodeBaseCodeChallange.Dtos.csproj",
+        "projectName": "Kenan.CodeBaseCodeChallange.Dtos",
+        "projectPath": "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Dtos\\Kenan.CodeBaseCodeChallange.Dtos.csproj",
+        "packagesPath": "C:\\Users\\bewel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bewel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Entities\\Kenan.CodeBaseCodeChallange.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Entities\\Kenan.CodeBaseCodeChallange.Entities.csproj",
+        "projectName": "Kenan.CodeBaseCodeChallange.Entities",
+        "projectPath": "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Entities\\Kenan.CodeBaseCodeChallange.Entities.csproj",
+        "packagesPath": "C:\\Users\\bewel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bewel\\source\\repos\\Kenan.CodeBaseCodeChallange.UI\\Kenan.CodeBaseCodeChallange.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bewel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

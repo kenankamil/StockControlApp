@@ -1,0 +1,28 @@
+﻿@model ProductSaleCreateModel
+@{
+    var id = ViewBag.id;
+    var error = ViewBag.ErrorMessage;
+}
+
+<form asp-action="SellProduct" asp-controller="Product" method="post">
+   <input asp-for="@Model.ProductId" class="form-control" hidden>
+    <div class="form-row my-2">
+        <div class="form-group">
+            <label>Customer Name</label>
+            <input asp-for="@Model.CustomerName" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label>Total</label>
+            <input type="number" asp-for="@Model.SaleCount" class="form-control" required>
+        </div>
+    </div>
+    @if (!string.IsNullOrEmpty(error))
+    {
+        <div class="row my-2">
+            <span class="text-danger">@error</span>
+        </div>
+    }
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <div class="text-danger" asp-validation-summary="All"></div>
+</form>
